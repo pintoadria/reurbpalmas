@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ReurbPalmas.py</title>
+
+    <!-- Prism.js (destaque de sintaxe elegante) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>📄 Código-fonte: <strong>ReurbPalmas.py</strong></h1>
+        <p>Arquivo Python exibido automaticamente com destaque de sintaxe.</p>
+    </header>
+
+    <main>
+        <pre><code class="language-python" id="code"></code></pre>
+    </main>
+
+    <footer>
+        <p>Gerado via GitHub Pages — <a href="ReurbPalmas.py" download>baixar arquivo</a></p>
+    </footer>
+
+    <script>
+        fetch("ReurbPalmas.py")
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById("code").textContent = text;
+                Prism.highlightAll(); // Aplica o destaque
+            });
+    </script>
+</body>
+
+</html>
